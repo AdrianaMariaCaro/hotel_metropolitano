@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #ebf2f2;
+}
+header {
+
+    background-color:#3a2702;
+    color: #ebf2f2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+p{
+   padding: 10px 0px 20px 5px;
+   width: 50%;
+   padding: 40px;
+}
+
+.logo{
+    margin-top: 10px;
+    width: 50%;
+    
+}
+
+.navegacion{
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    .link{
+        padding: 5px;
+        color: #ebf2f2;
+            text-decoration: none;
+            font-size: 0.8rem;
+
+    }
+}
+
+.formulario{
+    background-color: #ebf2f2;
+    height: 10vh;
+    width: 650px;
+
+}
+.navegacionFooter{
+    list-style: none;
+    .itemFooter{
+        margin-right: 20px;
+        .linkFooter{
+            color: #3a2702;
+            text-decoration: none;
+            font-size: 0.8rem;
+        }
+    }
+}
+
+.tituloH2{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.seccionTitulo {
+    background-image: url(../assets/img/loby.avif);
+    background-size: cover;
+    background-attachment:fixed ;
+    width: 100vw;
+    height: 80vh;
+
+    .contenedorFormulario{
+        display: flex;
+        align-items: center;
+        
+        flex-wrap: wrap;
+        justify-content: center;
+        object-fit: cover;
+    }
+}
+
+.seccionHabitaciones{
+    display: flex;
+    padding: 40px;
+}
+.tarjeta {
+    padding: 20px;
+}
+
+.imgTarjeta{
+    width: 60%;
+}
+
+.logoFooter{
+    width: 10%;
+}
+
+.seccionWorkarea {
+    background-image: url(../assets/img/reunion.avif);
+    background-size: cover;
+    background-attachment:fixed ;
+    width: 100vw;
+    height: 80vh;
+}
+
+.seccionGastronomia {
+    background-image: url(../assets/img/cocina.jpeg);
+    background-size: cover;
+    background-attachment:fixed ;
+    width: 100vw;
+    height: 80vh;
+}
+
+.seccionServicios{
+    background-image: url(../assets/img/checkin.jpeg);
+    background-size: cover;
+    background-attachment:fixed ;
+    width: 100vw;
+    height: 80vh;
+}
+
+footer{
+    margin: 20px;
+    color: black;
+}
