@@ -2,130 +2,102 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body{
-    background-color: #ebf2f2;
-}
-header {
-
-    background-color:#3a2702;
-    color: #ebf2f2;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-bottom: 10px;
-}
-
-p{
-   padding: 10px 0px 20px 5px;
-   width: 50%;
-   padding: 40px;
-}
 
 .logo{
-    margin-top: 10px;
-    width: 50%;
+   height: 2rem;
+}
+
+/*---------------- COLORES ------------*/
+.colorSec{
+    color: rgb(69, 51, 5);
     
 }
 
-.navegacion{
-    list-style: none;
-    display: flex;
-    align-items: flex-end;
-    justify-content: end;
-    .link{
-        padding: 5px;
-        color: #ebf2f2;
-            text-decoration: none;
-            font-size: 0.8rem;
+.colorPrin{
+    color: #1a263e;
+}
 
+.colorTer{
+    color: #5820ad;
+}
+
+/*----BACKGROUND--*/
+.bgPrin{
+    background-color: #32017a;
+    
+}
+
+.bgSec{
+    background-color: #1a263e;
+}
+
+.bgTer{
+    background-color: rgb(69, 51, 5);
+}
+
+.bg-index{
+    background-image: url(../assets/img/salatrabajo.jpeg);
+    background-size: cover;
+    height: 80vh;
+}
+
+
+
+/*---------------- BOTONES ------------*/
+.btnAzul{
+    background-color:#1a263e;
+    color: rgb(255, 255, 255);
+    border:#1a263e 2px solid ;
+}
+
+.btnAzul:hover{
+    background-color:#f6f8fa ;
+    border-color:#1a263e;
+    color:#1a263e;
+}
+/*----*/
+.btnBlanco{
+    background-color:#ffffff;
+    color: #2C3B59;
+    border:#ffffff 2px solid ;
+}
+
+.btnBlanco:hover{
+    background-color:#f6f8fa ;
+    border-color: #2C3B59;
+    color: #2C3B59;
+}
+/*----*/
+.btnVio{
+    background-color:#32017a;
+    color: rgb(255, 255, 255);
+    border:#32017a 2px solid ;
+}
+
+.btnVio:hover{
+    background-color:#f6f8fa ;
+    border-color: #32017a;
+    color: #32017a;
+}
+
+/*----*/
+
+.btnMarron{
+        background-color:#32017a;
+        color: rgb(255, 255, 255);
+        border:#32017a 2px solid ;
     }
+    
+.btnMarron:hover{
+        background-color:#f6f8fa ;
+        border-color: #32017a;
+        color: #32017a;
 }
 
-.formulario{
-    background-color: #ebf2f2;
-    height: 10vh;
-    width: 650px;
 
-}
-.navegacionFooter{
-    list-style: none;
-    .itemFooter{
-        margin-right: 20px;
-        .linkFooter{
-            color: #3a2702;
-            text-decoration: none;
-            font-size: 0.8rem;
-        }
-    }
-}
 
-.tituloH2{
-    display: flex;
-    justify-content: center;
-    margin: 30px;
-}
-
-.seccionTitulo {
-    background-image: url(../assets/img/loby.avif);
-    background-size: cover;
-    background-attachment:fixed ;
-    width: 100vw;
-    height: 80vh;
-
-    .contenedorFormulario{
-        display: flex;
-        align-items: center;
-        
-        flex-wrap: wrap;
-        justify-content: center;
-        object-fit: cover;
-    }
-}
-
-.seccionHabitaciones{
-    display: flex;
-    padding: 40px;
-}
-.tarjeta {
-    padding: 20px;
-}
-
-.imgTarjeta{
-    width: 60%;
-}
-
-.logoFooter{
-    width: 10%;
-}
-
-.seccionWorkarea {
-    background-image: url(../assets/img/reunion.avif);
-    background-size: cover;
-    background-attachment:fixed ;
-    width: 100vw;
-    height: 80vh;
-}
-
-.seccionGastronomia {
-    background-image: url(../assets/img/cocina.jpeg);
-    background-size: cover;
-    background-attachment:fixed ;
-    width: 100vw;
-    height: 80vh;
-}
-
-.seccionServicios{
-    background-image: url(../assets/img/checkin.jpeg);
-    background-size: cover;
-    background-attachment:fixed ;
-    width: 100vw;
-    height: 80vh;
-}
-
-footer{
-    margin: 20px;
-    color: black;
+.logo-footer{
+    height: 2rem;
 }
